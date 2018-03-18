@@ -1,0 +1,37 @@
+code {
+  background-color: #E0E0E0;
+  padding: 0.25em 0.3em;
+  font-family: 'Lato';
+  font-weight: bold;
+}
+.container {
+  padding: 5em 0em;
+}
+.ui.dividing.header,
+.first {
+  margin-top: 5em;
+}
+.ui.dividing.header:first-child {
+  margin-top: 0em;
+} 
+h1,
+h3 {
+  margin-top: 10em;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+img + img {
+  margin-top: 0.5em;
+}
+
+.dropZone {
+  border: 2px dashed #bbb !important;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding: 8px !important;
+  text-align: center;
+  color: #bbb;
+}
